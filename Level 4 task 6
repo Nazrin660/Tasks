@@ -1,0 +1,30 @@
+// 6. İstifadəçidən N ədəd alın və ən böyüyünü, ən kiçiyini və ortalamasını tapın.
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main() {
+    int N;
+    double sum=0;
+    cout<<"eded sayini daxil edin:";
+    cin>>N;
+    
+    int a;
+    cout<<"ededleri sirayla daxil edin:";
+    cin>>a;
+    int max = a;
+    int min = a;
+    for(int i=2 ;  i<=N ; i++){
+        cin>>a;
+        if(a>max){
+            max=a;
+        }
+        if(a<min){
+            min=a;
+        }
+        sum+=a;
+    }
+    sum=sum/N;
+    cout<<"maximum="<<max<<endl;
+    cout<<"minimum="<<min <<endl;
+    cout<<"ortalama="<<sum<<endl;
+}
