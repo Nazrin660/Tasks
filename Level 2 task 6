@@ -1,0 +1,19 @@
+6.
+#include <iostream>
+using namespace std;
+int main(){
+int a;
+cout<<"ededi daxil edin:";
+cin>>a;
+if(a==1 | a==2 | a==3)
+  cout<<"yaz";
+else if(a==4 | a==5 | a==6)
+  cout<<"yay";
+else if(a==7 | a==8 | a==9)
+  cout<<"payiz";
+else if(a==10 | a==11 | a==12)
+  cout<<"qis";
+else if(a>12)
+  cout<<"feslin nomresi duzgun daxil edimeyib";
+return 0;
+}
