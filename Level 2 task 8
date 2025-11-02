@@ -1,0 +1,13 @@
+8.
+#include <iostream>
+using namespace std;
+int main() {
+int a;
+cout<<"il daxil edin:";
+cin>>a;
+if(((a%4==0 & a%100!=0) | a%400==0))
+  cout<<"Bu il artiq ildir";
+else
+  cout<<"Deyil";
+return 0;
+}
