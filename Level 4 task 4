@@ -1,0 +1,17 @@
+// 4. Rəqəmlərinin cəmi 10-a bərabər olan 3 rəqəmli ədədləri ekrana çıxarın. 
+#include <iostream>
+using namespace std;
+int main() {
+   int z=100,n=0;
+   while(z<=999){
+       int a=z%10;
+       int b=(z/10)%10;
+       int c=z/100;
+     n=a+b+c;
+     if(n==10){
+     cout<<z<<endl;
+     }
+     z=z+1;
+   }
+    return 0;
+}
