@@ -1,0 +1,14 @@
+// 4. İstifadəçidən bir ədəd alın və onun faktorialını tapın.
+#include <iostream>
+using namespace std;
+int main() {
+    int z,F=1;
+    cout<<"ededi daxil edin:";
+    cin>>z;
+    while(z>0){
+        F=F*z;
+        z=z-1;
+    }
+cout<<F;
+    return 0;
+}
