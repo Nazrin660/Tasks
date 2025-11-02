@@ -1,0 +1,13 @@
+4.
+#include ciostream»
+using namespace std;
+int main() {
+int a;
+cout<<"ededi daxil edin:";
+cin>>a;
+if (a%2==0)
+  cout<<"cut ededdir";
+else
+  cout<<"tek ededdir";
+return 0;
+}
