@@ -1,0 +1,14 @@
+// 6. 1-dən istifadəçi daxil etdiyi ədədə qədər bütün ədədləri toplayin
+# include <iostream>
+using namespace std;
+int main() {
+    int z,s=0,t=1;
+    cout<<"ededi daxil edin:";
+    cin>>z;
+    while(t<=z){
+        s=s+t;
+        t=t+1;
+    }
+    cout<<s;
+    return 0;
+}
