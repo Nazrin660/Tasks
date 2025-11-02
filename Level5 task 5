@@ -1,0 +1,16 @@
+// 5. İstifadəçi ədəd daxil edir — həmin ədədin **tam bölənlərinin sayını** tapın. 
+#include <iostream>
+using namespace std;
+int main() {
+    int z,n=0,k=1;
+    cout<<"ededi daxil edin";
+    cin>>z;
+    while(k<=z){
+        if(z%k==0){
+        n=n+1;
+        }
+        k=k+1;
+    }
+    cout<<n*2;
+    return 0;
+}
