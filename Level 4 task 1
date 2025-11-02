@@ -1,0 +1,17 @@
+//1. İstifadəçidən bir ədəd alın. 1-dən həmin ədədə qədər olan **bütün cüt ədədlərin kvadratlarının cəmini** tapın. 
+
+#include <iostream>
+ using namespace std;
+int main() {
+     int n,s=0,k=1;
+     cout<<"ededi daxil edin:";
+     cin>>n;
+     while(k<=n){
+     if(k%2==0){
+         s=s+k*k;
+     }
+     k=k+1;
+     }
+     cout<<s;
+    return 0;
+}
