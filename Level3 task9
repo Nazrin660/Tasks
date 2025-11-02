@@ -1,0 +1,22 @@
+//9. İstifadəçidən alınan ədədin sadə olub-olmadığını yoxlayın
+
+#include <iostream>
+ using namespace std;
+int main() {
+     int z,t=2,k=0;
+     cout<<"ededi daxil edin:";
+     cin>>z;
+     while(t<=z/2+1){     
+         if(z%t==0){
+          k=k+1;
+         }
+        t=t+1;
+     }
+     if(k==0){
+     cout<<"sade";
+     }
+     else{
+     cout<<"murekkeb";
+     }
+    return 0;
+}
