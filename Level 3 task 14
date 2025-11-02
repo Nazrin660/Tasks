@@ -1,0 +1,15 @@
+// 14. 1-dən 100-ə qədər ədədlər arasında yalnız 3-ə və 7-yə bölünənləri yazın. 
+
+#include <iostream>
+using namespace std;
+int main() {
+    int z=1;
+    while(z<=100){
+        z=z+1;
+        if(z%21==0){
+         cout<<z<<endl;
+        }
+    
+    }
+    return 0;
+}
