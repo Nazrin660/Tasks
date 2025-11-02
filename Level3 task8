@@ -1,0 +1,17 @@
+// 8. Ədədin tərsini (məsələn, 123 → 321) tapın. 
+
+#include <iostream>
+ using namespace std;
+int main() {
+     int z,t=0,q;
+     cout<<"ededi daxil edin:";
+     cin>>z;
+     while(z!=0){     
+         q=z%10;
+         t=t*10+q;
+         z=z/10;
+         
+     }
+     cout<<t;
+    return 0;
+}
