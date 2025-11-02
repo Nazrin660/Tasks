@@ -1,0 +1,16 @@
+//15. İstifadəçidən N ədəd alın və onların cəmini tapın.
+
+#include <iostream>
+ using namespace std;
+int main() {
+     int n,s=0,k=1,l;
+     cout<<"ededi daxil edin:";
+     cin>>n;
+     while(k<=n){
+     cin>>l;
+     s=s+l;
+     k=k+1;
+     }
+     cout<<s;
+    return 0;
+}
