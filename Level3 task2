@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+int main() {
+   int z=2;
+   while(z<101){
+       cout<<z;
+       z=z+2;
+   }
+   
+
+    return 0;
+}
