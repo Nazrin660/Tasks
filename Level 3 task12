@@ -1,0 +1,15 @@
+//12. İstifadəçidən alınan ədədin bölənlərini tapın
+#include <iostream>
+ using namespace std;
+int main() {
+     int z,t=2;
+     cout<<"ededi daxil edin:";
+     cin>>z;
+     while(t<=z/2){     
+         if(z%t==0);
+          cout<<t<<endl;
+        t=t+1;
+     }
+     cout<<z;
+    return 0;
+}
