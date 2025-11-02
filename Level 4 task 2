@@ -1,0 +1,15 @@
+//2. Verilmiş ədədin **rəqəmlərinin sayını** hesablayın. 
+#include <iostream>
+ using namespace std;
+int main() {
+     int z,n=0;
+     cout<<"ededi daxil edin:";
+     cin>>z;
+     while(z!=0){
+        z=z/10;
+        n=n+1;
+     }
+    
+     cout<<n;
+    return 0;
+}
