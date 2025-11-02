@@ -1,0 +1,11 @@
+3.
+#include <iostream»
+using namespace std;
+int main() {
+int a;
+cout << " eded: ";
+cin >>a;
+cout<<"Ededin kvadrati="<<a*a<<endl;
+cout<<"Ededin kubu="<<a*a*a<<endl;
+return 0;
+}
