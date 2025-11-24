@@ -1,0 +1,16 @@
+#level4_14
+#include <iostream>
+using namespace std;
+void a() {
+    int n;
+    cout << "Ededi daxil edin: ";
+    cin >> n;
+    int b = n, v = 0;
+    while(b > 0) {
+        v = v * 10 + b % 10;
+        b /= 10;
+    }
+    cout << "Ededin tersi: " << rev << endl;
+    if(v == n) cout << "Eded tersi ile beraberdir." << endl;
+    else cout << "Eded tersi ile beraberd deyil." << endl;
+}
