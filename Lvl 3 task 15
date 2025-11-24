@@ -1,0 +1,20 @@
+#level3_task15
+#include <iostream>
+using namespace std;
+int z=0;
+void eded(int n){
+    for(int s=1;s<=n;s++){
+       z+=s;
+         } cout<<"n ededinin cemi: "<<z<<endl;
+    
+    
+      
+}
+
+int main() {
+   int x;
+   cout<<"eded daxil edin: "<<endl;
+   cin>>x;
+   eded(x);
+    return 0;
+}
