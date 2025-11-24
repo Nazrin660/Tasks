@@ -1,0 +1,21 @@
+#level2_task3
+#include <iostream>
+using namespace std;
+
+void eded(int a,int b,int c){
+    if(a>b && a>c)
+    cout<<"en boyuk eded: "<<a<<endl;
+    else if(b>c && b>a)
+    cout<<"en boyuk eded: "<<b<<endl;
+    else
+    cout<<"en boyuk eded: "<<c<<endl;
+}
+
+int main() {
+   int x,y,z;
+   cout<<"3 eded daxil edin: "<<endl;
+   cin>>x>>y>>z;
+   eded(x,y,z);
+
+    return 0;
+}
