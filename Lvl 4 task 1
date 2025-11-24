@@ -1,0 +1,18 @@
+#level4_1
+#include <iostream>
+using namespace std;
+int z=0;
+void eded(int n){
+    for(int s=1;s<=n;s++){
+        if(s%2==0)
+          z+=s;
+    }  cout<<"n ededinin 1 qeder olan cut ededlerinin cemi: "<<z<<endl; 
+}        
+  
+int main() {
+   int x;
+   cout<<"eded daxil edin: "<<endl;
+   cin>>x;
+   eded(x);
+    return 0;
+}
