@@ -1,0 +1,25 @@
+#level3_task7
+#include <iostream>
+using namespace std;
+int z;
+void eded(int a){
+    int s=0;
+    cout<<"eded daxil edin: "<<endl;
+    cin>>a;
+    s+=a;
+    while(a>0){
+     cout<<"eded daxil edin: "<<endl;
+      cin>>a;
+      s+=a;
+    } 
+  cout<<"ədədləri sıfır daxil edilene qeder toplamak: "<<s<<endl;
+    
+      
+}
+
+int main() {
+   int x;
+   eded(x);
+  
+    return 0;
+}
