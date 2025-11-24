@@ -1,0 +1,22 @@
+#level4_2
+#include <iostream>
+using namespace std;
+int reqemSayisi(int n) {
+    int s = 0;
+    if(n == 0) return 1;
+    while(n != 0) {
+        n /= 10;  
+        s++;    
+    }
+    return say;
+}
+
+int main() {
+    int eded;
+    cout << "Ededi daxil et: ";
+    cin >> eded;
+
+    int netice = reqemSayisi(eded);
+    cout << "Ededin reqemlerinin sayi: " << netice << endl;
+    return 0;
+}
