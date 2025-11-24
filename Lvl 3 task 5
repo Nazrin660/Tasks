@@ -1,0 +1,24 @@
+#level3_task5
+#include <iostream>
+using namespace std;
+int z=1;
+int eded(int a,int s=0){
+    while(z<=a){
+        s+=a%10;
+        a=a/10;
+    
+    }
+    
+    
+    return s;
+      
+}
+
+int main() {
+   int x;
+   cout<<"eded daxil edin: "<<endl;
+   cin>>x;
+   cout<<"ededin reqemleri cemi: "<<eded(x)<<endl;
+
+    return 0;
+}
